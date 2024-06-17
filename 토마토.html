@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>DH</title>
+  <style>
+    h1 {
+      color: pink
+    }
+  </style>
+</head>
+<body>
+  <h1>토마토 레시피, 차정은</h1>
+  <p id="output"></p>
+  <script>
+    function showText(text) {
+      document.getElementById("output").innerHTML = text;
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+       var text = `낭만 속 바닷물 20g<br>
+
+여름 한 스푼 50g<br>
+
+해변 속 뜨겁게 달궈진 조개껍데기 2개<br>
+
+갈대밭에 매달린 꿀 80g<br>
+
+​
+
+마지막으로 뜨거운 사랑을 함께 8분 동안 구워내면<br>
+
+​
+
+노을 진 들판에 홀로 남겨진 청춘의 토마토 한 송이가<br>`;
+      showText(text);
+    });
+  </script>
+</body>
+</html>
